@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 229, 250);
+    color: #333;
+    text-align: center;
+}
+
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: rgb(66, 8, 223);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #6AC2EF;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+body.dark-mode form {
+    background-color: #2e2e2e;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: rgb(55, 13, 247);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffaa00;
+    color: #333;
+}
+
+body.dark-mode form input[type="text"],
+body.dark-mode form input[type="submit"] {
+    background-color: #444;
+    color: white;
+}
+
+a {
+    color: #6AC2EF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body.dark-mode a {
+    color: #6AC2EF;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgb(8, 11, 192);
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+body.dark-mode footer {
+    background-color: #6AC2EF;
+    color: #fff;
+}
+
+.text-success {
+    color: rgb(29, 219, 23);
+}
+
+.text-danger {
+    color: rgb(218, 11, 11);
+}
+
+.text-white {
+    color: rgb(250, 253, 251);
+}
+
+.antibotlinks {
+    display: inline-block;
+}
+
+.atb {
+    display: block;
+    text-align: center;
+}
+
+.claim-button {
+    max-width: 50%;
+    margin: 0px auto !important;
+}
+
+.ads {
+    text-align: center !important;
+    margin: 5px;
+}
+
+.left-ads {
+    text-align: right;
+    margin: 5px 0px 5px 0px;
+}
+
+.right-ads {
+    text-align: left;
+    margin: 5px 0px 5px 0px;
+}
