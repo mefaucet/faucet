@@ -1,6 +1,6 @@
 # faucet
 # Installation
-Download MeFaucet-Free-Script-v1
-Upload MeFaucet-Free-Script-v1 to your FTP Server
-Make Changes in config.php
-Open https://yourdomain.com
+<li>Download MeFaucet-Free-Script-v1</li>
+<li>Upload MeFaucet-Free-Script-v1 to your FTP Server</li>
+<li>Make Changes in config.php</li>
+<li>Open https://yourdomain.com</li>
